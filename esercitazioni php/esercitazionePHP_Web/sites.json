@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Anime Unity",
+        "img_source": "img/animeunity.png",
+        "link": "https://www.animeunity.to/"
+    },
+    {
+        "title": "Pinterest",
+        "img_source": "img/pinterest.png",
+        "link": "https://it.pinterest.com/"
+    },
+    {
+        "title": "ChatGPT",
+        "img_source": "img/chatgpt.jpeg",
+        "link": "https://openai.com/index/chatgpt/"
+    },
+    {
+        "title": "Oracle",
+        "img_source": "img/oracle.png",
+        "link": "https://www.oracle.com/it/"
+    },
+    {
+        "title": "Zara",
+        "img_source": "img/zara.png",
+        "link": "https://www.zara.com/it/"
+    },
+    {
+        "title": "One Piece",
+        "img_source": "img/onepiece.jpg",
+        "link": "https://onepace.net/it"
+    }
+]

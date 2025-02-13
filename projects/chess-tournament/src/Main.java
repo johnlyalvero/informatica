@@ -13,7 +13,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Main {
-    private static final String DATA_FOLDER = "data/";
+    private static final String DATA_FOLDER = "./data/";
     private static final String GIOCATORI_FILE = DATA_FOLDER + "giocatori.csv";
     private static final String CALENDARIO_FILE = DATA_FOLDER + "calendario.csv";
     private static final String RISULTATI_FILE = DATA_FOLDER + "risultati.csv";

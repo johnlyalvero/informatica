@@ -22,16 +22,9 @@ public class Main {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        /*Scanner scanner = new Scanner(System.in);
-        String testo = scanner.nextLine();
-
-        System.out.println("Hai scritto: " + testo);
-        */
         inizializzaDatabase();
-
-        //Scanner scanner = new Scanner(System.in);
-
             while (true) {
+                clearScreen();
                 System.out.println("======================================");
                 System.out.println("          TORNEO DI SCACCHI          ");
                 System.out.println("======================================");
@@ -44,21 +37,33 @@ public class Main {
 
                 System.out.print("Scelta: ");
                 
-                
-
-                
                 int scelta = Integer.parseInt(scanner.nextLine());
 
                 switch (scelta) {
-                    case 1 -> inserireRisultati();
-                    case 2 -> generaNuoviTurni();
-                    case 3 -> mostraClassifica();
-                    case 4 -> mostraTurniSvolti();
+                    case 1 -> {
+                        inserireRisultati();
+                        attendiInputPrimaDiContinuare();
+                    }
+                    case 2 -> {
+                        generaNuoviTurni();
+                        attendiInputPrimaDiContinuare();
+                    }
+                    case 3 -> {
+                        mostraClassifica();
+                        attendiInputPrimaDiContinuare();
+                    }
+                    case 4 -> {
+                        mostraTurniSvolti();
+                        attendiInputPrimaDiContinuare();
+                    }
                     case 5 -> {
                         System.out.println("Grazie per aver usato il sistema. Arrivederci!");
                         return;
                     }
-                    default -> System.out.println("Scelta non valida, riprova.");
+                    default -> {
+                        System.out.println("Scelta non valida, riprova.");
+                        attendiInputPrimaDiContinuare();
+                    }
                 }
             }
     }
@@ -343,5 +348,15 @@ public class Main {
         }
 
         System.out.println("======================================");
+    }
+
+    public static void clearScreen() {  
+        System.out.print("\033[H\033[2J");  
+        System.out.flush();  
+    }
+
+    private static void attendiInputPrimaDiContinuare() {
+        System.out.println("\nPremi INVIO per tornare al menu...");
+        scanner.nextLine();
     }
 }

@@ -77,7 +77,7 @@
 </head>
 <body>
     
-<form method="post">
+<form action="script.php" method="post">
         Numero 1: <input type="text" name="num1" required><br>
         Numero 2: <input type="text" name="num2" required><br>
         <input type="submit" value="Calcola Somma">

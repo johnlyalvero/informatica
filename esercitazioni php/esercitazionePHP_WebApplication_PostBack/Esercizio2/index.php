@@ -8,7 +8,7 @@
 </head>
 <body>
     <h2>Tabelline</h2>
-    <form method="post">
+    <form action="script.php"  method="post">
         Numero: <input type="text" name="tabelline_num" required><br>
         <input type="submit" value="Calcola Tabelline">
     </form>

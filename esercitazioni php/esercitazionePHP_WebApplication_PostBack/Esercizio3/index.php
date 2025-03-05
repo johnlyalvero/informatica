@@ -9,7 +9,7 @@
 </head>
 <body>
     <h2>Operazioni matematiche</h2>
-    <form method="post">
+    <form  action="script.php" method="post">
         Operando 1: <input type="text" name="op1" required><br>
         Operando 2: <input type="text" name="op2" required><br>
         Operazione:

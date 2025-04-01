@@ -1,0 +1,22 @@
+---------- Nuovo Commento ----------
+Data: 2025-03-21 13:51:24
+IP: ::1
+Nome: Safhi
+Cognome: Mohammad
+Professione: studente
+Sesso: Non specificato
+Suggerimenti:
+Mi piace JM
+------------------------------------
+
+---------- Nuovo Commento ----------
+Data: 2025-03-21 13:52:25
+IP: ::1
+Nome: John Micheal
+Cognome: Espina
+Professione: studente
+Sesso: F
+Suggerimenti:
+LAVATI
+------------------------------------
+

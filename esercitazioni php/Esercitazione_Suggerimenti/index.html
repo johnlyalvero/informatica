@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Modulo Commenti</title>
+    </head>
+    <body>
+        <form action="script/script.php" method="POST">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="cognome">Cognome:</label><br>
+            <input type="text" id="cognome" name="cognome" required><br><br>
+        
+            <label for="professione">Professione:</label><br>
+            <input type="text" id="professione" name="professione" required><br><br>
+
+            <label>Sesso (opzionale):</label><br>
+            <input type="radio" id="maschio" name="sesso" value="M">
+            <label for="maschio">M</label><br>
+            <input type="radio" id="femmina" name="sesso" value="F">
+            <label for="femmina">F</label><br><br>
+
+            <label for="suggerimenti">Suggerimenti:</label><br>
+            <textarea id="suggerimenti" name="suggerimenti" rows="5" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Invia">
+        </form>
+    </body>
+</html>
